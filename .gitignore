@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Entornos virtuales
+.venv/
+venv/
+env/
+
+# Secretos y configuracion local
+.env
+.env.*
+!.env.example
+
+# Archivos temporales del sistema
+.DS_Store
+Thumbs.db
+*.log
+
+# Cache temporal de Pygbag (NO ignorar build/web: se publica en GitHub Pages)
+build/web-cache/
